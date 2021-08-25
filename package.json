@@ -15,9 +15,11 @@
 		"babel-preset-react": "^6.24.1",
 		"css-loader": "^6.2.0",
 		"live-server": "^1.2.1",
+		"moment": "^2.29.1",
 		"node-sass": "^6.0.1",
 		"normalize.css": "^8.0.1",
 		"react": "^17.0.2",
+		"react-dates": "^21.8.0",
 		"react-dom": "^17.0.2",
 		"react-modal": "^3.14.3",
 		"react-redux": "^7.2.4",
@@ -32,9 +34,11 @@
 		"watch": "webpack --watch",
 		"build": "webpack",
 		"dev-server": "webpack serve",
-		"serve": "live-server public/"
+		"serve": "live-server public/",
+		"test": "jest"
 	},
 	"devDependencies": {
+		"jest": "^27.0.6",
 		"webpack-cli": "^4.7.2"
 	}
 }
