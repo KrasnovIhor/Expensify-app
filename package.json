@@ -31,13 +31,15 @@
 	},
 	"scripts": {
 		"watch": "webpack --watch",
-		"build": "webpack",
+		"build:dev": "webpack",
+		"build:prod": "webpack --env production",
 		"dev-server": "webpack serve",
 		"serve": "live-server public/",
 		"test": "jest"
 	},
 	"devDependencies": {
 		"jest": "^27.0.6",
+		"mini-css-extract-plugin": "^2.3.0",
 		"node-sass": "^6.0.1",
 		"webpack-cli": "^4.7.2"
 	}
