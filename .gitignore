@@ -4,10 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-public/bundle.js
-public/bundle.js.map
-public/main.css
-public/main.css.map
+public/dist
 
 # testing
 /coverage

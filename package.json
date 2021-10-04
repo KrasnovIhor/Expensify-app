@@ -15,7 +15,6 @@
 		"babel-preset-react": "^6.24.1",
 		"css-loader": "^6.2.0",
 		"express": "^4.17.1",
-		"live-server": "^1.2.1",
 		"moment": "^2.29.1",
 		"normalize.css": "^8.0.1",
 		"react": "^17.0.2",
@@ -27,8 +26,7 @@
 		"redux": "^4.1.1",
 		"sass-loader": "^12.1.0",
 		"style-loader": "^3.2.1",
-		"webpack": "^5.44.0",
-		"webpack-dev-server": "^3.11.2"
+		"webpack": "^5.44.0"
 	},
 	"scripts": {
 		"watch": "webpack --watch",
@@ -36,7 +34,6 @@
 		"build:dev": "webpack",
 		"build:prod": "webpack --env production",
 		"dev-server": "webpack serve",
-		"serve": "live-server public/",
 		"test": "jest",
 		"heroku-postbuild": "npm run build:prod"
 	},
@@ -44,6 +41,7 @@
 		"jest": "^27.0.6",
 		"mini-css-extract-plugin": "^2.3.0",
 		"node-sass": "^6.0.1",
-		"webpack-cli": "^4.7.2"
+		"webpack-cli": "^4.7.2",
+		"webpack-dev-server": "^3.11.2"
 	}
 }
